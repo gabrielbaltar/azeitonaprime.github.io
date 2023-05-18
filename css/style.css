@@ -15,6 +15,10 @@
 
 /* Header */
 
+.nav-logo img {
+    padding: 10px;
+}
+
 .nav-bg {
     height: 112px;
     max-width: 100%;
@@ -94,6 +98,18 @@ input:focus {
     border-radius: 4px;
     border: none;
 }
+
+@media screen and (max-width: 950px){
+    .nav-search {
+        display: none;
+    }
+
+    .nav-content {
+        justify-content: flex-end;
+    }
+}
+
+/* Banner principal */
 
 
  
