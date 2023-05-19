@@ -145,5 +145,60 @@ input:focus {
 
 /* Banner principal */
 
+.banner-img {
+    position: relative;
+}
 
+.banner-img-1440 img{
+    display: none;
+}
+
+.banner-img img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.banner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.seletor-slider{
+    position: absolute;
+    display: flex;
+    align-self: center;
+    max-width: 1242px;
+    gap: 1150px;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1400px){
+    .seletor-slider {
+        gap: 800px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .seletor-slider {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 950px) {
+
+    .banner-img-1440 img{
+        display: block;
+        max-width: 100%;
+        object-fit: cover;
+        height: auto;
+    }
+
+    .banner-img img {
+        display: none;
+    }
+
+}
  
