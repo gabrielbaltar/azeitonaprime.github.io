@@ -240,6 +240,7 @@ input:focus {
     display: flex;
     align-items: center;
     gap: 10px;
+    color: var(--cor-principal-roxo);
 }
 
 .filter .button-filter:nth-child(4) {
