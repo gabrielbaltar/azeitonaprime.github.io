@@ -93,7 +93,7 @@ input:focus {
     border-color: var(--branco);
 }
 
-.nav-button button {
+.nav-button a button{
     padding: 12px 24px;
     cursor: pointer;
     display: flex;
