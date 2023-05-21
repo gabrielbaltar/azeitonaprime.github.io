@@ -467,3 +467,161 @@ input:focus {
         justify-content: center;
     }
 }
+
+/* Footer */
+
+.footer-bg {
+    max-width: 100%;
+    background-color: var(--cor-principal-roxo);
+    display: flex;
+    flex: 1 1 1000px;
+    justify-content: space-between;
+}
+
+.footer-content {
+    display: flex;
+    padding-left: 331px;
+    padding-top: 81px;
+    flex: 1 1 500px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-image {
+    padding-left: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-content img {
+    max-width: 51px;
+    padding-bottom: 14px;
+}
+
+.image-content {
+    position: absolute;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    color: var(--branco);
+    padding-top: 90px;
+}
+
+.image-content h4 {
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 29px;
+}
+
+.image-content p {
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 197px;
+    line-height: 27px;
+}
+
+.links-footer a p{
+    color: var(--branco);
+    font-weight: 400;
+    font-size: 1em;
+    padding-bottom: 12px;
+}
+
+.links-footer{
+    color: var(--branco);
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.links-redes {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.links-redes p {
+    padding-right: 8px;
+}
+
+.newsletter-link a {
+    color: var(--branco);
+}
+
+.links-app-download img {
+    max-width: 135px;
+}
+
+.links-app-download {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.links-app-download p {
+    color: var(--branco);
+}
+
+@media screen and (max-width: 1700px) {
+    .footer-content {
+        padding-left: 186px;
+    }
+}
+
+@media screen and (max-width: 1460px) {
+    .footer-content {
+        padding-left: 110px;
+    }
+}
+
+@media screen and (max-width: 1270px) {
+    .footer-content {
+        padding-left: 40px;
+    }
+    .footer-image {
+        padding-left: 32px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .footer-bg {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        padding-left: 0px;
+        align-items: center;
+    }
+    
+
+    .footer-image {
+        padding-top: 72px;
+        padding-left: 0px;
+    }
+
+    .links-app-download {
+        align-items: center;
+    }
+
+    .links-footer {
+        text-align: center;
+    }
+
+    .footer-image img {
+        object-fit: cover;
+        max-width: 100%;
+    }
+}
+
+
+
