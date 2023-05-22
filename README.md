@@ -10,7 +10,7 @@
 <br>
 
 <p align="center">
-  <img alt="Rocket.Q" src=".github/capa.png" width="100%">
+  <img alt="Azeirna Prime" src=".github/capa.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
