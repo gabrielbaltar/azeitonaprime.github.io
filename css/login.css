@@ -263,6 +263,10 @@ input:focus {
     line-height: 1.4;
 }
 
+.cadastre-se {
+    color: var(--cor-principal-roxo);
+}
+
 .quero-ser-lojista a{
     display:  flex;
     border: 1px solid #858585;

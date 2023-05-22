@@ -23,10 +23,10 @@ Projeto para praticar os conceitos de flexbox utilizando as tecnologias:
 
 ## 💻 Projeto
 
-Projeto criado no NLW (Next Lever Week) da cketseaRot.
+Projeto criado para praticar os conceitos aprendidos de flexbox.
 
 Site de vendas de cupons de desconto em estabelecimentos parceiros.
 
 ## 🔖 Layout
 
-Link para acessar o layout no figma [Link do projeto](https://azeitonaprime-github-io.vercel.app/).
+Link para acessar o site [Link do projeto](https://azeitonaprime-github-io.vercel.app/).
