@@ -2,17 +2,16 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="./css/login.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Azeitona Prime</title>
+    <link rel="stylesheet" type="text/css" href="./css/cadastro.css">
+    <title>Cadastre-se</title>
 </head>
-
 <body>
-    <!--Header-->
+    <!-- Header -->
     <header class="nav-bg">
         <div class="nav-menu">
             <div class="nav-content">
@@ -36,40 +35,64 @@
         </div>
     </header>
 
-    <!-- Container/Login-->
-    <section class="login-bg">
-        <div class="login-container">
-            <div class="login-content">
-                <h3>Acessar sua conta</h3>
-                <form class="form-login" action="#">
-                    <label for="#">E-mail<span>*</span></label>
-                    <input type="email" placeholder="Digite seu E-mail">
-                    <label for="#">Senha<span>*</span></label>
-                    <input type="password" placeholder="Digite seu E-mail">
-                    <a href="#">Esqueci minha senha</a>
-                    <button type="submit">Fazer login</button>
-                </form>
-                <div class="social-login">
-                    <div class="social-login-container">
-                        <a href="#"><img src="./images/icone-social-login-google.svg" alt="Entrar com o Google">Entrar com o Google</a>
+    <!-- Cadastro -->
+    <section class="cadastro-bg">
+        <div class="todo-conteudo-formulario">
+            <div class="cadastro-content">
+                <div class="cadastro-titulo">
+                    <h3>Criar conta</h3>
+                </div>
+                <div class="cadastro-seletor-step">
+                    <div class="passo-1">
+                        <a href="#">1</a>
                     </div>
-                    <div class="social-login-container">
-                        <a href="#"><img src="./images/icone-social-login-facebook.svg" alt="Entrar com o Facebook">Entrar com o Facebook</a>
+                    <div class="linha">
+    
                     </div>
-                    <div class="social-login-container">
-                        <a href="#"><img src="./images/icone-social-login-apple.svg" alt="Entrar com Apple">Entrar com Apple</a>
+                    <div class="passo-2">
+                        <a href="#">2</a>
                     </div>
                 </div>
-                <div class="cadastre-lojista">
-                    <p>Ainda não é cadastrado? Aproveite o Azeitona Prime.<br><a class="cadastre-se" clas href="/cadastro.html">Cadastre-se</a></p>
-                </div>
-                <div class="quero-ser-lojista">
-                    <a href="#">Quero ser lojista</a>
+                <div class="step-texto">
+                    <div class="texto-1">
+                        <p>Informações<br>pessoais</p>
+                    </div>
+                    <div class="texto-2">
+                        <p>Escolher sua senha</p>
+                    </div>
                 </div>
             </div>
+            <form class="form-bg" action="#">
+                <div class="formulario">
+                    <div class="nome-sobrenome">
+                        <label for="#">Nome e Sobrenome<span>*</span></label>
+                        <input type="text" placeholder="Digite seu nome e sobrenome" name="Nome e Sobrenome" id="">
+                    </div>
+                    <div class="tres-form">
+                        <div class="formulario2">
+                            <div class="senha">
+                                <label for="#">Nome e Sobrenome<span>*</span></label>
+                                <input type="text" placeholder="Digite seu nome e sobrenome" name="Nome e Sobrenome" id="">
+                            </div>
+                        </div>
+                        <div class="formulario2">
+                            <div class="senha">
+                                <label for="#">Nome e Sobrenome<span>*</span></label>
+                                <input type="text" placeholder="Digite seu nome e sobrenome" name="Nome e Sobrenome" id="">
+                            </div>
+                        </div>
+                        <div class="formulario2">
+                            <div class="senha">
+                                <label for="#">Nome e Sobrenome<span>*</span></label>
+                                <input type="text" placeholder="Digite seu nome e sobrenome" name="Nome e Sobrenome" id="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
         </div>
     </section>
-    
+
     <!-- Footer -->
     <footer class="footer-bg">
         <div class="footer-content">
