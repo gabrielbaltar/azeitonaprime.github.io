@@ -286,6 +286,7 @@ input:focus {
     .login-container {
         max-width: 400px;
         padding: 0 32px;
+        padding-top: 32px;
     }
 
 }

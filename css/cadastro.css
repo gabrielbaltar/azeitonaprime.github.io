@@ -157,7 +157,6 @@ input:focus {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 814px;
     padding-top: 32px;
 }
 
@@ -229,7 +228,6 @@ input:focus {
 .todo-conteudo-formulario {
     display: flex;
     flex-direction: column;
-    flex: 1 1 814px;
     background-color: var(--branco);
     max-width: 814px;
     margin: 0 auto;
@@ -256,6 +254,12 @@ input:focus {
     color: #333333;
     font-size: 16px;
     padding-bottom: 8px;
+    display: flex;
+    gap: 8px;
+}
+
+.todo-conteudo-formulario span{
+    color: var(--cor-principal-roxo);
 }
 
 .nome-sobrenome input {
@@ -270,7 +274,7 @@ input:focus {
     padding-left: 16px;
 }
 
-.nome-sobrenome input::placeholder {
+.formulario .nome-sobrenome input::placeholder {
     font-size: 14px;
     color: #777777;
 }
@@ -279,12 +283,295 @@ input:focus {
     display: flex;
     flex-direction: row;
     margin: 0 auto;
+    gap: 16px;
+    padding-bottom: 21px;
 }
 
 .senha {
     max-width: 300px;
 }
 
+.tres-form {
+    padding-top: 21px;
+    display: flex;
+    max-width: 532px;
+}
+
+.formulario2 {
+    display: flex;
+}
+
+.formulario2 label {
+    color: #333333;
+    font-size: 16px;
+    padding-bottom: 8px;
+    display: flex;
+    gap: 8px;
+}
+
+.tres-form .formulario2 input:focus {
+    border-color: 1px solid #800080;
+}
+
+.formulario2 input {
+    display: flex;
+    width: 258px;
+    flex-wrap: wrap;
+    height: 49px;
+    color: #777777;
+    border-radius: 8px;
+    border: 1px solid #D5D5D5;
+    padding-left: 16px; 
+}
+
+.formulario input:focus {
+    border-color: var(--cor-principal-roxo);
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 21px;
+    margin: 0 auto;
+}
+
+.email label {
+    color: #333333;
+    font-size: 16px;
+    padding-bottom: 8px;
+    display: flex;
+    gap: 8px;
+}
+
+.email span {
+    display: flex;
+    gap: 8px;
+}
+
+.email input {
+    height: 49px;
+    color: #777777;
+    border-radius: 8px;
+    border: 1px solid #D5D5D5;
+    padding-left: 16px;
+    width: 532px;
+}
+
+.email input:focus {
+    border-color: 1px solid #800080;
+}
+
+.cep-endereco-container {
+    display: flex;
+    gap: 16px;
+    padding-bottom: 21px;
+}
+
+.cep {
+    display: flex;
+    flex-direction: column;
+    width: 182px;
+}
+
+.cep label {
+    color: #333333;
+    font-size: 16px;
+    padding-bottom: 8px;
+    display: flex;
+    gap: 8px;
+}
+
+.cep input {
+    display: flex;
+    padding-left: 16px;
+    flex: 1 1 49px;
+    border-radius: 8px;
+    border: 1px solid #D5D5D5;
+}
+
+.cep input:focus {
+    border-color: #800080;
+}
+
+.endereco {
+    display: flex;
+    flex-direction: column;
+    width: 384px;
+}
+
+.endereco label {
+    color: #333333;
+    font-size: 16px;
+    padding-bottom: 8px;
+    display: flex;
+    gap: 8px;
+}
+
+.endereco input {
+    display: flex;
+    border: 1px solid #D5D5D5;
+    height: 49px;
+    border-radius: 8px;
+    padding-left: 16px;
+}
+
+.cep-endereco-container .endereco input::placeholder {
+    color: #777777;
+}
+
+.numero-cidade-uf-container {
+    display: flex;
+    gap: 13px;
+}
+
+.numero {
+    display: flex;
+    flex-direction: column;
+}
+
+.numero label {
+    color: #333333;
+    font-size: 16px;
+    padding-bottom: 8px;
+    display: flex;
+    gap: 8px;
+}
+
+.numero input {
+    height: 49px;
+    width: 182px;
+    border-radius: 8px;
+    padding-left: 16px;
+    border: 1px solid #D5D5D5;
+}
+
+.numero::placeholder {
+    color: #777777;
+}
+
+.cidade {
+    display: flex;
+    flex-direction: column;
+}
+
+.cidade label {
+    color: #333333;
+    font-size: 16px;
+    padding-bottom: 8px;
+    display: flex;
+    gap: 8px;
+}
+
+.cidade input {
+    height: 49px;
+    width: 182px;
+    border: 1px solid #D5D5D5;
+    padding-left: 16px;
+    border-radius: 8px;
+}
+.uf {
+    display: flex;
+    flex-direction: column;
+}
+
+.uf label {
+    color: #333333;
+    font-size: 16px;
+    padding-bottom: 8px;
+    display: flex;
+    gap: 8px;
+}
+
+.uf select {
+    height: 49px;
+    width: 142px;
+    color: #777777;
+    padding: 0 16px;
+    border: 1px solid #D5D5D5;
+    border-radius: 8px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 262px;
+    height: 40px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.button button {
+    display: flex;
+    flex: 1 1 262px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color: var(--branco);
+    background-color: var(--cor-principal-roxo);
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 831px) {
+    .todo-conteudo-formulario {
+        max-width: 570px;
+    }
+
+    .nome-sobrenome input {
+        width: 295px;
+
+    }
+
+    .tres-form {
+        flex-direction: column;
+    }
+    
+    .tres-form input{
+        width: 295px;
+    }
+
+    .email input {
+        width: 295px;
+    }
+
+    .cep-endereco-container {
+        flex-direction: column;
+        margin: 0 auto;
+        width: 295px;
+    }
+
+    .cep-endereco-container input {
+        width: 295px;
+        margin: o auto;
+    }
+
+    .numero-cidade-uf-container {
+        flex-direction: column;
+    }
+
+    .numero-cidade-uf-container input {
+        width: 295px;
+    }
+
+    .numero-cidade-uf-container select {
+        width: 295px;
+    }
+
+    .button {
+        width: 295px;
+    } 
+
+}
+
+@media screen and (max-width: 590px) {
+    .todo-conteudo-formulario {
+        max-width: 335px;
+    }
+
+    .endereco {
+        width: 295px;
+    }
+}
 
 /* Footer */
 
