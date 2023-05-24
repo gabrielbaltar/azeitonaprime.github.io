@@ -143,27 +143,33 @@ input:focus {
     }
 }
 
-/* Cadastro */
+/* Form cadastras 2 etapa */
 
-.cadastro-bg {
-    margin: 0 auto;
+.confirm-senha-bg {
     max-width: 100%;
-    padding-top: 24px;
-    padding-bottom: 156px;
+    padding-top: 25px;
+    padding-bottom: 307px;
     background-color: #F4F4F4;
 }
 
-.cadastro-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 32px;
+.confirm-senha-content {
+    height: 499px;
+    max-width: 818px;
+    background-color: var(--branco);
+    border-radius: 8px;
+    margin: 0px auto;
 }
 
-.cadastro-titulo h3{
+.content-margin {
+    margin: 0 20px;
+}
+
+.cadastro-titulo h3 {
+    text-align: center;
+    padding-top: 32px;
     font-size: 24px;
     color: #333333;
-    font-weight: 600;
+    font-weight: 500;
     padding-bottom: 26px;
 }
 
@@ -171,6 +177,7 @@ input:focus {
     display: flex;
     align-items: center;
     padding-bottom: 12px;
+    justify-content: center;
 }
 
 .linha {
@@ -186,7 +193,7 @@ input:focus {
 }
 
 .passo-2 a{
-    color: var(--cor-principal-roxo);
+    color: var(--branco)
 }
 
 .passo-1 {
@@ -202,7 +209,7 @@ input:focus {
 .passo-2 {
     height: 40px;
     width: 40px;
-    border: 1px solid var(--cor-principal-roxo);
+    background-color: var(--cor-principal-roxo);
     display: flex;
     border-radius: 50%;
     justify-content: center;
@@ -216,6 +223,7 @@ input:focus {
     justify-content: center;
     gap: 72px;
     padding-bottom: 24px;
+    margin: 0 auto;
 }
 
 .step-texto p {
@@ -225,357 +233,96 @@ input:focus {
     
 }
 
-.todo-conteudo-formulario {
-    display: flex;
-    flex-direction: column;
-    background-color: var(--branco);
-    max-width: 814px;
+.campos {
+    max-width: 335px;
     margin: 0 auto;
 }
 
-.form-bg {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 32px;
-}
-
-.formulario {
-    display: flex;
-    flex-direction: column;
-    max-width: 532px;
-}
-
-.nome-sobrenome {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-}
-.nome-sobrenome label {
-    color: #333333;
+.campos .senha label {
     font-size: 16px;
-    padding-bottom: 8px;
+    color: #333333;
+    font-weight: 400;
     display: flex;
     gap: 8px;
+    padding-bottom: 8px;
 }
 
-.todo-conteudo-formulario span{
+.campos .senha span {
     color: var(--cor-principal-roxo);
 }
 
-.nome-sobrenome input {
-    display: flex;
-    flex: 1 1 49px;
-    width: 532px;
-    flex-wrap: wrap;
-    flex-direction: row;
-    border: 1px solid #D5D5D5;
-    border-radius: 8px;
-    outline: #800080;
-    padding-left: 16px;
-}
+.campos .senha input {
 
-.formulario .nome-sobrenome input::placeholder {
-    font-size: 14px;
-    color: #777777;
-}
-
-.tres-form {
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
-    gap: 16px;
-    padding-bottom: 21px;
-}
-
-.senha {
-    max-width: 300px;
-}
-
-.tres-form {
-    padding-top: 21px;
-    display: flex;
-    max-width: 532px;
-}
-
-.formulario2 {
-    display: flex;
-}
-
-.formulario2 label {
-    color: #333333;
-    font-size: 16px;
-    padding-bottom: 8px;
-    display: flex;
-    gap: 8px;
-}
-
-.tres-form .formulario2 input:focus {
-    border-color: 1px solid #800080;
-}
-
-.formulario2 input {
-    display: flex;
-    width: 258px;
-    flex-wrap: wrap;
     height: 49px;
-    color: #777777;
-    border-radius: 8px;
     border: 1px solid #D5D5D5;
-    padding-left: 16px; 
-}
-
-.formulario input:focus {
-    border-color: var(--cor-principal-roxo);
-}
-
-.email {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 21px;
-    margin: 0 auto;
-}
-
-.email label {
-    color: #333333;
-    font-size: 16px;
-    padding-bottom: 8px;
-    display: flex;
-    gap: 8px;
-}
-
-.email span {
-    display: flex;
-    gap: 8px;
-}
-
-.email input {
-    height: 49px;
-    color: #777777;
     border-radius: 8px;
-    border: 1px solid #D5D5D5;
+    display: flex;
+    width: 335px;
     padding-left: 16px;
-    width: 532px;
+    flex: 1 1 335px;
+    margin-bottom: 16px;
 }
 
-.email input:focus {
-    border-color: 1px solid #800080;
+input:focus {
+    border: 1px solid #800080;
 }
 
-.cep-endereco-container {
-    display: flex;
-    gap: 16px;
-    padding-bottom: 21px;
-}
-
-.cep {
-    display: flex;
-    flex-direction: column;
-    width: 182px;
-}
-
-.cep label {
-    color: #333333;
-    font-size: 16px;
-    padding-bottom: 8px;
-    display: flex;
-    gap: 8px;
-}
-
-.cep input {
-    display: flex;
-    padding-left: 16px;
-    flex: 1 1 49px;
-    border-radius: 8px;
-    border: 1px solid #D5D5D5;
-}
-
-.cep input:focus {
-    border-color: #800080;
-}
-
-.endereco {
-    display: flex;
-    flex-direction: column;
-    width: 384px;
-}
-
-.endereco label {
-    color: #333333;
-    font-size: 16px;
-    padding-bottom: 8px;
-    display: flex;
-    gap: 8px;
-}
-
-.endereco input {
-    display: flex;
-    border: 1px solid #D5D5D5;
-    height: 49px;
-    border-radius: 8px;
-    padding-left: 16px;
-}
-
-.cep-endereco-container .endereco input::placeholder {
-    color: #777777;
-}
-
-.numero-cidade-uf-container {
-    display: flex;
-    gap: 13px;
-}
-
-.numero {
-    display: flex;
-    flex-direction: column;
-}
-
-.numero label {
-    color: #333333;
-    font-size: 16px;
-    padding-bottom: 8px;
-    display: flex;
-    gap: 8px;
-}
-
-.numero input {
-    height: 49px;
-    width: 182px;
-    border-radius: 8px;
-    padding-left: 16px;
-    border: 1px solid #D5D5D5;
-}
-
-.numero::placeholder {
-    color: #777777;
-}
-
-.cidade {
-    display: flex;
-    flex-direction: column;
-}
-
-.cidade label {
-    color: #333333;
-    font-size: 16px;
-    padding-bottom: 8px;
-    display: flex;
-    gap: 8px;
-}
-
-.cidade input {
-    height: 49px;
-    width: 182px;
-    border: 1px solid #D5D5D5;
-    padding-left: 16px;
-    border-radius: 8px;
-}
-.uf {
-    display: flex;
-    flex-direction: column;
-}
-
-.uf label {
-    color: #333333;
-    font-size: 16px;
-    padding-bottom: 8px;
-    display: flex;
-    gap: 8px;
-}
-
-.uf select {
-    height: 49px;
-    width: 142px;
-    color: #777777;
-    padding: 0 16px;
-    border: 1px solid #D5D5D5;
-    border-radius: 8px;
-}
-
-.button{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    width: 262px;
+.button-criar-conta {
+    max-width: 262px;
     height: 40px;
     margin: 0 auto;
-    margin-bottom: 48px;
-}
-
-
-.button a {
     display: flex;
-    flex: 1 1 262px;
-    align-items: center;
     justify-content: center;
-    border: none;
-    color: var(--branco);
+    align-items: center;
     background-color: var(--cor-principal-roxo);
     border-radius: 8px;
 }
 
-@media screen and (max-width: 831px) {
-    .todo-conteudo-formulario {
-        max-width: 570px;
-    }
-
-    .nome-sobrenome input {
-        width: 295px;
-
-    }
-
-    .tres-form {
-        flex-direction: column;
-    }
-    
-    .tres-form input{
-        width: 295px;
-    }
-
-    .email input {
-        width: 295px;
-    }
-
-    .cep-endereco-container {
-        flex-direction: column;
-        margin: 0 auto;
-        width: 295px;
-    }
-
-    .cep-endereco-container input {
-        width: 295px;
-        margin: o auto;
-    }
-
-    .numero-cidade-uf-container {
-        flex-direction: column;
-    }
-
-    .numero-cidade-uf-container input {
-        width: 295px;
-    }
-
-    .numero-cidade-uf-container select {
-        width: 295px;
-    }
-
-    .button {
-        width: 295px;
-    } 
-
+.button-criar-conta a {
+    color: var(--branco);
+    font-size: 16px;
+    font-weight: 400;
 }
 
-@media screen and (max-width: 590px) {
-    .todo-conteudo-formulario {
-        max-width: 335px;
+@media screen and (max-width: 415px) {
+
+    .campos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .endereco {
-        width: 295px;
+    .campos .senha input {
+        width: 270px;
+    }
+
+    .button-criar-conta {
+        max-width: 270px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+
+    .campos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .campos .senha input {
+        width: 260px;
+    }
+
+    .button-criar-conta {
+        max-width: 260px;
+    }
+
+    .content-margin {
+        margin: 0 8px;
     }
 }
 
 /* Footer */
-
 
 .footer-bg {
     max-width: 100%;
@@ -729,5 +476,3 @@ input:focus {
         max-width: 100%;
     }
 }
-
-
