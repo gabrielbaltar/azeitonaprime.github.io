@@ -322,6 +322,7 @@ input:focus {
     border-radius: 8px;
     border: 1px solid #D5D5D5;
     padding-left: 16px; 
+    outline: #800080;
 }
 
 .formulario input:focus {
@@ -355,6 +356,7 @@ input:focus {
     border: 1px solid #D5D5D5;
     padding-left: 16px;
     width: 532px;
+    outline: #800080;
 }
 
 .email input:focus {
@@ -387,10 +389,7 @@ input:focus {
     flex: 1 1 49px;
     border-radius: 8px;
     border: 1px solid #D5D5D5;
-}
-
-.cep input:focus {
-    border-color: #800080;
+    outline: #800080;
 }
 
 .endereco {
@@ -413,6 +412,7 @@ input:focus {
     height: 49px;
     border-radius: 8px;
     padding-left: 16px;
+    outline: #800080;
 }
 
 .cep-endereco-container .endereco input::placeholder {
@@ -443,6 +443,7 @@ input:focus {
     border-radius: 8px;
     padding-left: 16px;
     border: 1px solid #D5D5D5;
+    outline: #800080;
 }
 
 .numero::placeholder {
@@ -468,6 +469,7 @@ input:focus {
     border: 1px solid #D5D5D5;
     padding-left: 16px;
     border-radius: 8px;
+    outline: #800080;
 }
 .uf {
     display: flex;
@@ -489,6 +491,7 @@ input:focus {
     padding: 0 16px;
     border: 1px solid #D5D5D5;
     border-radius: 8px;
+    outline: none;
 }
 
 .button{
