@@ -75,11 +75,15 @@
     padding-left: 24px;
 }
 
+.nav-search input:focus {
+    outline: #DDC3DD;
+    box-shadow: 0 0 0 1px var(--branco);
+}
+
 .nav-search input::placeholder {
     color: var(--branco);
     opacity: 80%;
     font-weight: 300;
-    
     font-size: 1em;
 }
 
@@ -87,10 +91,6 @@
     -webkit-appearance: none;
     appearance: none;
     display: none;
-}
-
-input:focus {
-    border-color: var(--branco);
 }
 
 .nav-button button{
