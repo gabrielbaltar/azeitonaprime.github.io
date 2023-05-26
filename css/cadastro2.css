@@ -260,11 +260,12 @@ input:focus {
     width: 335px;
     padding-left: 16px;
     flex: 1 1 335px;
-    margin-bottom: 16px;
+    margin-bottom: 16px; 
 }
 
-input:focus {
-    border: 1px solid #800080;
+.campos .senha input:focus{
+    box-shadow: 0 0 0 1px var(--cor-principal-roxo);
+    outline: none;
 }
 
 .button-criar-conta {
