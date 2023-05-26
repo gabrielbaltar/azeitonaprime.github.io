@@ -250,9 +250,41 @@
     border: none;
 }
 
+@media screen and (max-width: 900px){
+
+    .filter-bg {
+        width: 845px;
+        flex: 1 1 900px;
+        display: block;
+    }
+
+    .button-filter {
+        padding: 12px 12px;
+    }
+
+    .filter {
+        gap: 8px;
+    }
+
+}
+
+@media screen and (max-width: 730px){
+
+    .filter-bg {
+        width: 580px;
+    }
+
+    .filter {
+        gap: 8px;
+        width: 580px;
+    }
+
+}
+
 @media screen and (max-width: 643px) {
 
     .filter-bg {
+        width: 580px;
         padding: 24px;
         overflow-x: scroll;
         margin-bottom: 48px;
@@ -260,7 +292,8 @@
 
     .filter {
         justify-content: center;
-
+        gap: 8px;
+        width: 580px;
     }
 
     .button-filter {
@@ -270,17 +303,23 @@
 
 @media screen and (max-width: 540px) {
 
+    .filter-bg {
+        width: 580px;
+        padding: 24px;
+        overflow-x: scroll;
+        margin-bottom: 48px;
+    }
+
     .filter {
-        padding-left: 150px;
+        justify-content: center;
+        gap: 8px;
+        width: 580px;
     }
 
 }
 
 @media screen and (max-width: 480px) {
 
-    .filter {
-        padding-left: 130px;
-    }
 
     .button-filter {
         padding: 8px 16px;
@@ -289,10 +328,6 @@
 }
 
 @media screen and (max-width: 380px) {
-
-    .filter {
-        padding-left: 250px;
-    }
 
 }
 
