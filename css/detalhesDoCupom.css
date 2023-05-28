@@ -384,7 +384,7 @@ input:focus {
     max-width: 328px;
 }
 
-.store-card {
+.store-card a{
     display: flex;
     width: 328px;
     background-color: var(--branco);
