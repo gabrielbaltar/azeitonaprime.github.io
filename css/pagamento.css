@@ -40,11 +40,57 @@
 
 }
 
-.payment-pix input {
+.radio-button-pix {
     height: 16px;
     width: 16px;
     border: 2px solid #777777;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+/*.marcacao-pix {
+    height: 8px;
+    width: 8px;
+    background-color: #800080;
+    border-radius: 50%;
+}*/
+
+.radio-button-credit {
+    height: 16px;
+    width: 16px;
+    border: 2px solid #777777;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*.marcacao-credit {
+    height: 8px;
+    width: 8px;
+    background-color: #800080;
+    border-radius: 50%;
+}*/
+
+
+.radio-button-money {
+    height: 16px;
+    width: 16px;
+    border: 2px solid #777777;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*.marcacao-money {
+    height: 8px;
+    width: 8px;
+    background-color: #800080;
+    border-radius: 50%;
+}*/
 
 .payment-pix a {
     display: flex;
