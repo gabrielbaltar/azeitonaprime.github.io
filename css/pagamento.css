@@ -1,0 +1,56 @@
+/* Container principal da página */
+
+.content-bg {
+    max-width: 100%;
+    background-color: #f4f4f4;
+}
+
+.payment-content {
+    max-width: 1135px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 56px;
+}
+
+.payment-title h2 {
+    color: #222222;
+    font-size: 32px;
+    font-weight: 500;
+    padding-bottom: 32px;
+}
+
+.payment-options {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 710px;
+}
+
+.payment-pix {
+
+    display: flex;
+    align-items: center;
+    background-color: var(--branco);
+    max-width: 710px;
+    padding: 20px;
+    gap: 15px;
+
+}
+
+#radio-button-pix {
+    height: 16px;
+    width: 16px;
+}
+
+#radio-button-pix[type="radio"]:checked {
+   color: #800080;
+}
+
+.payment-pix a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #333333;
+    font-weight: 500;
+}
+

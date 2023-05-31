@@ -5,6 +5,7 @@
         <link rel="icon" href="./images/favicon.svg" type="image/x-icon">
         <link rel="shortcut icon" href="./images/favicon.svg" type="image/x-icon">
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/pagamento.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -36,6 +37,46 @@
             </div>
         </div>
     </header>
+
+    <!-- Container -->
+
+    <section class="content-bg">
+        <div class="payment-content">
+            <div class="payment-options">
+                <div class="payment-title">
+                    <h2>Forma de pagamento</h2>
+                </div>
+                <div class="payment-type">
+                    <div class="payment-pix">
+                       <input id="radio-button-pix" type="radio">
+                        <a href="#"><img src="./images/payment-page-pix-icon.svg" alt="Opção para pagar com pix">PIX</a>
+                    </div>
+                    <div class="payment-credit">
+                        <input type="radio">
+                         <a href="#"><img src="./images/payment-page-credit-card-icon.svg" alt="Opção para pagar com cartão de crédito">CARTÃO DE CRÉDITO</a>
+                     </div>
+                     <div class="payment-money">
+                        <input type="radio">
+                         <a href="#"><img src="./images/payment-page-money-icon.svg" alt="Opção para pagar com saldo atual">SALDO ATUAL</a>
+                     </div>
+                </div>
+            </div>
+            <div class="resume">
+                <h3>Resumo</h3>
+                <hr>
+                <div class="resume-product">
+                    <div class="product-left">
+                        <img src="./images/payment-page-resume-photo.png" alt="Foto do produto">
+                        <p>Bacon Cheeseburger</p>
+                        <span>Qt.: 1</span>
+                    </div>
+                    <div class="resume-price">
+                        <p>R$ 9.995,00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer -->
     <footer class="footer-bg">
